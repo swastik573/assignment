@@ -1,0 +1,39 @@
+/* postCard.css */
+
+.post-card {
+
+  width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-bottom: 20px;
+  position: relative;
+  background-color: rgb(221, 156, 216);
+}
+
+.profile-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: absolute;
+  
+  left: 85%;
+  transform: translateX(-50%);
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.post-content {
+  margin-bottom: 20px;
+}
+
+.post-image {
+  width: 100%;
+  border-radius: 5px;
+}
